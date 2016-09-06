@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="browser" value="IE"/>
+  <test name="OperaTest(failed)">
+    <parameter name="browser" value="Opera"/>
+    <classes>
+      <class name="crossBrowsweTesting.CrsBrsTest">
+        <methods>
+          <include name="VerifyTitle"/>
+          <include name="openBrowswer"/>
+          <include name="closeBrowser"/>
+          <include name="openBrowswer"/>
+          <include name="closeBrowser"/>
+          <include name="openBrowswer"/>
+          <include name="openBrowswer"/>
+        </methods>
+      </class> <!-- crossBrowsweTesting.CrsBrsTest -->
+    </classes>
+  </test> <!-- OperaTest(failed) -->
+  <test name="IETest(failed)">
+    <parameter name="browser" value="IE"/>
+    <classes>
+      <class name="crossBrowsweTesting.CrsBrsTest">
+        <methods>
+          <include name="VerifyTitle"/>
+          <include name="openBrowswer"/>
+          <include name="closeBrowser"/>
+          <include name="openBrowswer"/>
+          <include name="closeBrowser"/>
+          <include name="openBrowswer"/>
+          <include name="openBrowswer"/>
+        </methods>
+      </class> <!-- crossBrowsweTesting.CrsBrsTest -->
+    </classes>
+  </test> <!-- IETest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
